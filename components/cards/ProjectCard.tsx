@@ -21,6 +21,7 @@ const ProjectCard = ({projectImage, projectTitle, githubLink}: ProjectCardProps)
 					layout="fill"
 					objectFit="cover"
 					quality={100}
+					unoptimized={true}
 				/>
 			</div>
 			<h2 className="font-bold text-xl ml-5 mb-5 mt-5">{projectTitle}</h2>
