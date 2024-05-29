@@ -4,6 +4,7 @@ import "./globals.css";
 import LeftSideBar from "@/components/shared/LeftSideBar";
 import Footer from "@/components/Footer";
 import AvailableForWork from "@/components/AvailableForWork";
+import React from "react";
 
 const inter = Inter(
 	{

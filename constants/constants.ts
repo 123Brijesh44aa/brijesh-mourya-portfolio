@@ -1,26 +1,26 @@
 export const projects = [
 	{
-		projectImage: "/images/app/poke.png",
+		projectImage: "https://images.pexels.com/photos/243698/pexels-photo-243698.jpeg?auto=compress&cs=tinysrgb&w=600",
 		projectTitle: "Pokemon Android Application With Clean Architecture Built with Flutter",
 		githubLink: "https://github.com/123Brijesh44aa/PokeX"
 	},
 	{
-		projectImage: "/images/app/meme.jpeg",
+		projectImage: "https://play-lh.googleusercontent.com/0kARDlMVcjqJEtsRGRBg6sn4bKBNTasilixIbY--2iK5aVXmvowEkoXoxe12SE-20w=w2560-h1440-rw",
 		projectTitle: "Random Meme Android Application Built with Java and Android Studio",
 		githubLink: "https://github.com/123Brijesh44aa/Meme",
 	},
 	{
-		projectImage: "/images/app/notes.jpeg",
+		projectImage: "https://images.unsplash.com/photo-1603015269169-225cb700e29a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fG5vdGVzJTIwYXBwfGVufDB8fDB8fHww",
 		projectTitle: "Flutter Notes Taking Application With CRUD Operations",
 		githubLink: "https://github.com/123Brijesh44aa/Notes-Application-Flutter",
 	},
 	{
-		projectImage: "/images/app/bmi.jpeg",
+		projectImage: "https://media.istockphoto.com/id/1751402744/vector/body-mass-index-is-a-measure-of-body-fat-based-on-height-and-weight-that-applies-to-adult.jpg?s=612x612&w=0&k=20&c=daRwOozDEi2itOMYMOChDW37JNl9muJefujLNYHzFmo=",
 		projectTitle: "BMI Android Application Built With Flutter",
 		githubLink: "https://github.com/123Brijesh44aa/Bmi-Calculator-Flutter",
 	},
 	{
-		projectImage: "/images/app/qrcode.jpeg",
+		projectImage: "https://images.unsplash.com/photo-1595079836278-25b7ad6d5ddb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHFyJTIwY29kZXN8ZW58MHx8MHx8fDA%3D",
 		projectTitle: "QR Code Android Application",
 		githubLink: "https://github.com/123Brijesh44aa/QR-Code-Scanner"
 	},
