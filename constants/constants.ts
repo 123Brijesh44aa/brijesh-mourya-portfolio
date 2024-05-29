@@ -5,7 +5,7 @@ export const projects = [
 		githubLink: "https://github.com/123Brijesh44aa/PokeX"
 	},
 	{
-		projectImage: "https://www.istockphoto.com/photo/stern-sad-cat-isolated-on-white-background-gm1434414228-476036446?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_image_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fmemes%2F&utm_term=memes",
+		projectImage: "https://images.pexels.com/photos/11035396/pexels-photo-11035396.jpeg?auto=compress&cs=tinysrgb&w=600",
 		projectTitle: "Random Meme Android Application Built with Java and Android Studio",
 		githubLink: "https://github.com/123Brijesh44aa/Meme",
 	},
