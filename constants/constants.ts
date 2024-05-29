@@ -10,17 +10,17 @@ export const projects = [
 		githubLink: "https://github.com/123Brijesh44aa/Meme",
 	},
 	{
-		projectImage: "https://images.unsplash.com/photo-1603015269169-225cb700e29a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fG5vdGVzJTIwYXBwfGVufDB8fDB8fHww",
+		projectImage: "https://images.pexels.com/photos/7213436/pexels-photo-7213436.jpeg?auto=compress&cs=tinysrgb&w=600",
 		projectTitle: "Flutter Notes Taking Application With CRUD Operations",
 		githubLink: "https://github.com/123Brijesh44aa/Notes-Application-Flutter",
 	},
 	{
-		projectImage: "https://media.istockphoto.com/id/1751402744/vector/body-mass-index-is-a-measure-of-body-fat-based-on-height-and-weight-that-applies-to-adult.jpg?s=612x612&w=0&k=20&c=daRwOozDEi2itOMYMOChDW37JNl9muJefujLNYHzFmo=",
+		projectImage: "https://images.pexels.com/photos/4474052/pexels-photo-4474052.jpeg?auto=compress&cs=tinysrgb&w=600",
 		projectTitle: "BMI Android Application Built With Flutter",
 		githubLink: "https://github.com/123Brijesh44aa/Bmi-Calculator-Flutter",
 	},
 	{
-		projectImage: "https://images.unsplash.com/photo-1595079836278-25b7ad6d5ddb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHFyJTIwY29kZXN8ZW58MHx8MHx8fDA%3D",
+		projectImage: "https://media.istockphoto.com/id/1251133771/photo/hand-using-mobile-smart-phone-scan-qr-code-on-blue-background-cashless-technology-and-digital.jpg?s=2048x2048&w=is&k=20&c=J1x-OhpxAWp9V-k1jsYKpJEx-EY-wMUB9AoYEnLRHD0=",
 		projectTitle: "QR Code Android Application",
 		githubLink: "https://github.com/123Brijesh44aa/QR-Code-Scanner"
 	},
