@@ -19,6 +19,7 @@ const Projects = () => {
 									projectImage={project.projectImage}
 									projectTitle={project.projectTitle}
 									githubLink={project.githubLink}
+									liveLink={project.liveLink}
 									key={index}
 								/>
 							)
