@@ -1,5 +1,17 @@
 export const projects = [
 	{
+		projectImage: "/images/vid-brief-cover-image.png",
+		projectTitle: "VidBrief (Transform YouTube videos into concise summaries and insightful overviews with our innovative analysis app)",
+		githubLink: "https://github.com/123Brijesh44aa/vidbrief",
+		liveLink: "https://vidbrief.vercel.app/",
+	},
+	{
+		projectImage: "/images/travel-anywhere.png",
+		projectTitle: "Travel Anywhere ( UI / UX application ) ",
+		githubLink: "https://github.com/123Brijesh44aa/TravelAnywhere",
+		liveLink: "https://travel-anywhere-five.vercel.app/",
+	},
+	{
 		projectImage: "https://images.pexels.com/photos/243698/pexels-photo-243698.jpeg?auto=compress&cs=tinysrgb&w=600",
 		projectTitle: "Pokemon Android Application With Clean Architecture Built with Flutter",
 		githubLink: "https://github.com/123Brijesh44aa/PokeX"
@@ -23,11 +35,6 @@ export const projects = [
 		projectImage: "https://media.istockphoto.com/id/1251133771/photo/hand-using-mobile-smart-phone-scan-qr-code-on-blue-background-cashless-technology-and-digital.jpg?s=2048x2048&w=is&k=20&c=J1x-OhpxAWp9V-k1jsYKpJEx-EY-wMUB9AoYEnLRHD0=",
 		projectTitle: "QR Code Android Application",
 		githubLink: "https://github.com/123Brijesh44aa/QR-Code-Scanner"
-	},
-	{
-		projectImage: "/images/travel-anywhere.png",
-		projectTitle: "Travel Anywhere ( UI / UX application ) ",
-		githubLink: "https://github.com/123Brijesh44aa/TravelAnywhere",
 	},
 
 ];

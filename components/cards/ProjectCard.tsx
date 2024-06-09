@@ -7,9 +7,10 @@ interface ProjectCardProps {
 	projectImage: string;
 	projectTitle: string;
 	githubLink: string;
+	liveLink?: string;
 }
 
-const ProjectCard = ({projectImage, projectTitle, githubLink}: ProjectCardProps) => {
+const ProjectCard = ({projectImage, projectTitle, githubLink, liveLink}: ProjectCardProps) => {
 	return (
 		<div
 			className="w-full sm:w-[350px] p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-500 shadow-lg hover:shadow-2xl">
@@ -31,11 +32,14 @@ const ProjectCard = ({projectImage, projectTitle, githubLink}: ProjectCardProps)
 						View Project on github
 					</Button>
 				</Link>
-				{/*<Link href="/projects/visit-site">*/}
-				{/*	<Button variant="project">*/}
-				{/*		Visit Site*/}
-				{/*	</Button>*/}
-				{/*</Link>*/}
+				{
+					liveLink &&
+				<Link href={liveLink}>
+					<Button variant="project">
+						Visit Site
+					</Button>
+				</Link>
+				}
 			</div>
 		</div>
 	);
