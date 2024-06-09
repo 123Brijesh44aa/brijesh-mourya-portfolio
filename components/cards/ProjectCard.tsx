@@ -2,15 +2,24 @@ import React from 'react';
 import Image from "next/image";
 import {Button} from "@/components/ui/button";
 import Link from "next/link";
+import {Badge} from "@/components/ui/badge";
 
 interface ProjectCardProps {
 	projectImage: string;
 	projectTitle: string;
 	githubLink: string;
 	liveLink?: string;
+	techs?: string[];
 }
 
-const ProjectCard = ({projectImage, projectTitle, githubLink, liveLink}: ProjectCardProps) => {
+function getRandomColor() {
+	const r = Math.floor(Math.random() * 50);
+	const g = Math.floor(0);
+	const b = Math.floor(Math.random() * 150);
+	return `rgba(${r},${g},${b},0.9)`;
+}
+
+const ProjectCard = ({projectImage, projectTitle, githubLink, liveLink, techs}: ProjectCardProps) => {
 	return (
 		<div
 			className="w-full sm:w-[350px] p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-500 shadow-lg hover:shadow-2xl">
@@ -25,8 +34,8 @@ const ProjectCard = ({projectImage, projectTitle, githubLink, liveLink}: Project
 					unoptimized={true}
 				/>
 			</div>
-			<h2 className="font-bold text-xl ml-5 mb-5 mt-5">{projectTitle}</h2>
-			<div className="flex flex-col md:flex-row justify-between items-center gap-3">
+			<h2 className=" h-32 font-bold text-xl ml-5 mb-5 mt-5">{projectTitle}</h2>
+			<div className="flex flex-col md:flex-row justify-between items-center gap-3 mb-5">
 				<Link href={githubLink} target={"_blank"} className={"w-full md:w-auto"}>
 					<Button variant="project">
 						View Project on github
@@ -39,6 +48,15 @@ const ProjectCard = ({projectImage, projectTitle, githubLink, liveLink}: Project
 						Visit Site
 					</Button>
 				</Link>
+				}
+			</div>
+			<div className={"flex justify-start items-center gap-2 flex-wrap"}>
+				{
+					techs?.map((tech, index) => {
+						return (
+							<Badge key={index} className={"text-[11px] font-normal text-white"} style={{backgroundColor: getRandomColor()}}>{tech}</Badge>
+						)
+					})
 				}
 			</div>
 		</div>

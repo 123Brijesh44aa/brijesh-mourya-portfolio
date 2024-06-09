@@ -20,6 +20,7 @@ const Projects = () => {
 									projectTitle={project.projectTitle}
 									githubLink={project.githubLink}
 									liveLink={project.liveLink}
+									techs={project.techs}
 									key={index}
 								/>
 							)
