@@ -11,7 +11,7 @@ const Projects = () => {
 					Showcasing
 					My Journey
 				</h1>
-				<div className="w-full min-h-[50vh] gap-6 flex-wrap flex justify-normal items-start"> {/*   */}
+				<div className="w-full min-h-[60vh] gap-6 flex-wrap flex justify-normal items-start"> {/*   */}
 					{
 						projects.map((project, index) => {
 							return (
