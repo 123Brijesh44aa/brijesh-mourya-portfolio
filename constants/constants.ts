@@ -12,7 +12,7 @@ export const projects = [
 		liveLink: "https://travel-anywhere-five.vercel.app/",
 	},
 	{
-		projectImage: "https://images.pexels.com/photos/243698/pexels-photo-243698.jpeg?auto=compress&cs=tinysrgb&w=600",
+		projectImage: "/images/pokemon-app-cover-image.png",
 		projectTitle: "Pokemon Android Application With Clean Architecture Built with Flutter",
 		githubLink: "https://github.com/123Brijesh44aa/PokeX"
 	},
@@ -27,7 +27,7 @@ export const projects = [
 		githubLink: "https://github.com/123Brijesh44aa/Notes-Application-Flutter",
 	},
 	{
-		projectImage: "https://images.pexels.com/photos/4474052/pexels-photo-4474052.jpeg?auto=compress&cs=tinysrgb&w=600",
+		projectImage: "/images/bmi-calc-cover-image.png",
 		projectTitle: "BMI Android Application Built With Flutter",
 		githubLink: "https://github.com/123Brijesh44aa/Bmi-Calculator-Flutter",
 	},
