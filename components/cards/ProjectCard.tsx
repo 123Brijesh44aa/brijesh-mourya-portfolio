@@ -27,14 +27,14 @@ const ProjectCard = ({projectImage, projectTitle, githubLink, liveLink}: Project
 			</div>
 			<h2 className="font-bold text-xl ml-5 mb-5 mt-5">{projectTitle}</h2>
 			<div className="flex flex-col md:flex-row justify-between items-center gap-3">
-				<Link href={githubLink}>
+				<Link href={githubLink} target={"_blank"} className={"w-full md:w-auto"}>
 					<Button variant="project">
 						View Project on github
 					</Button>
 				</Link>
 				{
 					liveLink &&
-				<Link href={liveLink} target={"_blank"}>
+				<Link href={liveLink} target={"_blank"} className={"w-full md:w-auto"}>
 					<Button variant="project">
 						Visit Site
 					</Button>
