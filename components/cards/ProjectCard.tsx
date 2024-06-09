@@ -34,7 +34,7 @@ const ProjectCard = ({projectImage, projectTitle, githubLink, liveLink}: Project
 				</Link>
 				{
 					liveLink &&
-				<Link href={liveLink}>
+				<Link href={liveLink} target={"_blank"}>
 					<Button variant="project">
 						Visit Site
 					</Button>
