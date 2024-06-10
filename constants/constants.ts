@@ -3,7 +3,7 @@ export const projects = [
 		projectImage: "/images/vid-brief-cover-image.png",
 		projectTitle: "VidBrief (Transform YouTube videos into concise summaries and insightful overviews with our innovative analysis app)",
 		githubLink: "https://github.com/123Brijesh44aa/vidbrief",
-		liveLink: "https://vidbrief.vercel.app/",
+		// liveLink: "https://vidbrief.vercel.app/",
 		techs: ["React", "Tailwind CSS", "Next.JS", "TypeScript", "Node.js", "YouTube Data API", "Generative AI", "ShadCN", "Figma"]
 	},
 	{
