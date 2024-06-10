@@ -12,13 +12,6 @@ interface ProjectCardProps {
 	techs?: string[];
 }
 
-function getRandomColor() {
-	const r = Math.floor(Math.random() * 50);
-	const g = Math.floor(0);
-	const b = Math.floor(Math.random() * 150);
-	return `rgba(${r},${g},${b},0.9)`;
-}
-
 const ProjectCard = ({projectImage, projectTitle, githubLink, liveLink, techs}: ProjectCardProps) => {
 	return (
 		<div
@@ -54,7 +47,7 @@ const ProjectCard = ({projectImage, projectTitle, githubLink, liveLink, techs}: 
 				{
 					techs?.map((tech, index) => {
 						return (
-							<Badge key={index} className={"text-[11px] font-normal text-white"} style={{backgroundColor: getRandomColor()}}>{tech}</Badge>
+							<Badge key={index} variant={"outline"} className={"text-[11px] font-normal text-violet-800"}>{tech}</Badge>
 						)
 					})
 				}

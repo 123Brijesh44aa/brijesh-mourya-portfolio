@@ -4,14 +4,14 @@ export const projects = [
 		projectTitle: "VidBrief (Transform YouTube videos into concise summaries and insightful overviews with our innovative analysis app)",
 		githubLink: "https://github.com/123Brijesh44aa/vidbrief",
 		liveLink: "https://vidbrief.vercel.app/",
-		techs: ["React", "Tailwind CSS", "Next.JS", "Node.js", "YouTube Data API", "Generative AI", "ShadCN", "Figma"]
+		techs: ["React", "Tailwind CSS", "Next.JS", "TypeScript", "Node.js", "YouTube Data API", "Generative AI", "ShadCN", "Figma"]
 	},
 	{
 		projectImage: "/images/travel-anywhere.png",
 		projectTitle: "Travel Anywhere ( UI / UX application ) ",
 		githubLink: "https://github.com/123Brijesh44aa/TravelAnywhere",
 		liveLink: "https://travel-anywhere-five.vercel.app/",
-		techs: ["Next.JS", "Tailwind CSS", "ShadCN", "Figma"]
+		techs: ["Next.JS", "Tailwind CSS", "TypeScript", "ShadCN", "Figma"]
 	},
 	{
 		projectImage: "/images/pokemon-app-cover-image.png",
