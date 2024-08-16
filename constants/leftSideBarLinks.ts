@@ -24,6 +24,12 @@ const leftSideBarLinks = [
 		icon: "/icons/stack.svg"
 	},
 	{
+		label: "Resume",
+		key: "resume",
+		href: "/resume",
+		icon: "/icons/resume-portfolio-svgrepo-com.svg"
+	},
+	{
 		label: "Contact",
 		key: "contact",
 		href: "/contact",
