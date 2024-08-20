@@ -1,5 +1,11 @@
 export const projects = [
 	{
+		projectImage: "/images/tour-booking.png",
+		projectTitle: "Tour Booking REST API",
+		githubLink: "https://github.com/123Brijesh44aa/tour-booking-system-API",
+		techs: ["Javascript","Node.js","Express.js","MongoDB","HTML","CSS","PUG","Intellij IDE"]
+	},
+	{
 		projectImage: "/images/vid-brief-cover-image.png",
 		projectTitle: "VidBrief (Transform YouTube videos into concise summaries and insightful overviews with our innovative analysis app)",
 		githubLink: "https://github.com/123Brijesh44aa/vidbrief",

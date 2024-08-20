@@ -18,8 +18,11 @@ const ProfileCard = () => {
 				<h1 className="text-2xl font-bold text-gray-800">
 					Brijesh Mourya
 				</h1>
-				<p className="text-gray-500">
+				<p className="text-gray-700">
 					Software Developer
+				</p>
+				<p className={"text-sm"}>
+					INDIA
 				</p>
 			</div>
 		</div>
