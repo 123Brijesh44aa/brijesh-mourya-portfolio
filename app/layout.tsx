@@ -44,7 +44,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${roboto.className}`}>
+      <body className={` ${inter.className}`}>
       <main className="flex flex-col sm:flex-row justify-between items-start divide-x w-full">
 	      <LeftSideBar/>
 	      <div className="flex-1 mx-auto px-10 py-10">  {/* max-w-[75%] flex-1  bg-amber-300   */}

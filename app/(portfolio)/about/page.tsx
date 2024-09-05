@@ -39,7 +39,7 @@ const About = () => {
 					{
 						edu_stack.map((item,index) => {
 							return (
-								<div className="flex flex-col justify-between items-start gap-4" key={index}>
+								<div className={`flex flex-col justify-between items-start gap-4`} key={index}>
 									<h1 className="text-3xl text-gray-800 font-extrabold">{item.name}</h1>
 									<p className="text-gray-600 overflow-hidden break-words">{item.description}</p>
 									<Link href={item.href}>
@@ -61,7 +61,7 @@ const About = () => {
 				</h1>
 				<div className="flex flex-col justify-between items-start gap-4 pt-6 pb-6">
 					{
-						experience.map((experience,index) => {
+						experience.filter((item,index) => index===0 || index===3).map((experience,index) => {
 							return (
 								<ExperienceCard
 									key={index}
