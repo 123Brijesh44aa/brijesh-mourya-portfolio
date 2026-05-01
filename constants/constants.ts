@@ -242,7 +242,7 @@ export const experience =
 			"title": "Front-End Developer",
 			"company": "Tech Innovators Inc.",
 			"startDate": "January 2021",
-			"endDate": "August 2021",
+			"endDate": "April 2021",
 			"description": "Worked as part of a team to develop responsive web applications using React.js and Tailwind CSS. Collaborated closely with designers and back-end developers to create seamless user experiences. Assisted in code reviews and contributed to performance optimization efforts."
 		},
 		{
